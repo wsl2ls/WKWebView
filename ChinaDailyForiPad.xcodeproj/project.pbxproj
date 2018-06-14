@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310D1BF12074674600FF3CBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1BF02074674600FF3CBE /* AppDelegate.m */; };
+		310D1BF42074674600FF3CBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1BF32074674600FF3CBE /* ViewController.m */; };
+		310D1BF72074674600FF3CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310D1BF52074674600FF3CBE /* Main.storyboard */; };
+		310D1BF92074674600FF3CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310D1BF82074674600FF3CBE /* Assets.xcassets */; };
+		310D1BFC2074674600FF3CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310D1BFA2074674600FF3CBE /* LaunchScreen.storyboard */; };
+		310D1BFF2074674600FF3CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1BFE2074674600FF3CBE /* main.m */; };
+		310D1C092074674700FF3CBE /* ChinaDailyForiPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1C082074674700FF3CBE /* ChinaDailyForiPadTests.m */; };
+		310D1C142074674700FF3CBE /* ChinaDailyForiPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1C132074674700FF3CBE /* ChinaDailyForiPadUITests.m */; };
+		310D1C2C2074A83E00FF3CBE /* backbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 310D1C2A2074A83D00FF3CBE /* backbutton@2x.png */; };
+		310D1C2D2074A83E00FF3CBE /* backbutton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 310D1C2B2074A83D00FF3CBE /* backbutton@3x.png */; };
+		310D1C302074A86A00FF3CBE /* webRefreshButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 310D1C2E2074A86A00FF3CBE /* webRefreshButton@2x.png */; };
+		310D1C312074A86A00FF3CBE /* webRefreshButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 310D1C2F2074A86A00FF3CBE /* webRefreshButton@3x.png */; };
+		3120AD6D20BBF90800CDEE5A /* JStoOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 3120AD6C20BBF90800CDEE5A /* JStoOC.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		310D1C052074674700FF3CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 310D1BE42074674600FF3CBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 310D1BEB2074674600FF3CBE;
+			remoteInfo = ChinaDailyForiPad;
+		};
+		310D1C102074674700FF3CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 310D1BE42074674600FF3CBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 310D1BEB2074674600FF3CBE;
+			remoteInfo = ChinaDailyForiPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		310D1BEC2074674600FF3CBE /* ChinaDailyForiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaDailyForiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		310D1BEF2074674600FF3CBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		310D1BF02074674600FF3CBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		310D1BF22074674600FF3CBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		310D1BF32074674600FF3CBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		310D1BF62074674600FF3CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		310D1BF82074674600FF3CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		310D1BFB2074674600FF3CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		310D1BFD2074674600FF3CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310D1BFE2074674600FF3CBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		310D1C042074674700FF3CBE /* ChinaDailyForiPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinaDailyForiPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		310D1C082074674700FF3CBE /* ChinaDailyForiPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinaDailyForiPadTests.m; sourceTree = "<group>"; };
+		310D1C0A2074674700FF3CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310D1C0F2074674700FF3CBE /* ChinaDailyForiPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinaDailyForiPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		310D1C132074674700FF3CBE /* ChinaDailyForiPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinaDailyForiPadUITests.m; sourceTree = "<group>"; };
+		310D1C152074674700FF3CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310D1C2420746CA300FF3CBE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		310D1C2A2074A83D00FF3CBE /* backbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@2x.png"; sourceTree = "<group>"; };
+		310D1C2B2074A83D00FF3CBE /* backbutton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@3x.png"; sourceTree = "<group>"; };
+		310D1C2E2074A86A00FF3CBE /* webRefreshButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@2x.png"; sourceTree = "<group>"; };
+		310D1C2F2074A86A00FF3CBE /* webRefreshButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@3x.png"; sourceTree = "<group>"; };
+		3120AD6C20BBF90800CDEE5A /* JStoOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JStoOC.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		310D1BE92074674600FF3CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310D1C012074674700FF3CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310D1C0C2074674700FF3CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310D1BE32074674600FF3CBE = {
+			isa = PBXGroup;
+			children = (
+				310D1BEE2074674600FF3CBE /* ChinaDailyForiPad */,
+				310D1C072074674700FF3CBE /* ChinaDailyForiPadTests */,
+				310D1C122074674700FF3CBE /* ChinaDailyForiPadUITests */,
+				310D1BED2074674600FF3CBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		310D1BED2074674600FF3CBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				310D1BEC2074674600FF3CBE /* ChinaDailyForiPad.app */,
+				310D1C042074674700FF3CBE /* ChinaDailyForiPadTests.xctest */,
+				310D1C0F2074674700FF3CBE /* ChinaDailyForiPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		310D1BEE2074674600FF3CBE /* ChinaDailyForiPad */ = {
+			isa = PBXGroup;
+			children = (
+				310D1C2E2074A86A00FF3CBE /* webRefreshButton@2x.png */,
+				310D1C2F2074A86A00FF3CBE /* webRefreshButton@3x.png */,
+				310D1C2A2074A83D00FF3CBE /* backbutton@2x.png */,
+				310D1C2B2074A83D00FF3CBE /* backbutton@3x.png */,
+				3120AD6C20BBF90800CDEE5A /* JStoOC.html */,
+				310D1C2420746CA300FF3CBE /* PrefixHeader.pch */,
+				310D1BEF2074674600FF3CBE /* AppDelegate.h */,
+				310D1BF02074674600FF3CBE /* AppDelegate.m */,
+				310D1BF22074674600FF3CBE /* ViewController.h */,
+				310D1BF32074674600FF3CBE /* ViewController.m */,
+				310D1BF52074674600FF3CBE /* Main.storyboard */,
+				310D1BF82074674600FF3CBE /* Assets.xcassets */,
+				310D1BFA2074674600FF3CBE /* LaunchScreen.storyboard */,
+				310D1BFD2074674600FF3CBE /* Info.plist */,
+				310D1BFE2074674600FF3CBE /* main.m */,
+			);
+			path = ChinaDailyForiPad;
+			sourceTree = "<group>";
+		};
+		310D1C072074674700FF3CBE /* ChinaDailyForiPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				310D1C082074674700FF3CBE /* ChinaDailyForiPadTests.m */,
+				310D1C0A2074674700FF3CBE /* Info.plist */,
+			);
+			path = ChinaDailyForiPadTests;
+			sourceTree = "<group>";
+		};
+		310D1C122074674700FF3CBE /* ChinaDailyForiPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				310D1C132074674700FF3CBE /* ChinaDailyForiPadUITests.m */,
+				310D1C152074674700FF3CBE /* Info.plist */,
+			);
+			path = ChinaDailyForiPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		310D1BEB2074674600FF3CBE /* ChinaDailyForiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310D1C182074674700FF3CBE /* Build configuration list for PBXNativeTarget "ChinaDailyForiPad" */;
+			buildPhases = (
+				310D1BE82074674600FF3CBE /* Sources */,
+				310D1BE92074674600FF3CBE /* Frameworks */,
+				310D1BEA2074674600FF3CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChinaDailyForiPad;
+			productName = ChinaDailyForiPad;
+			productReference = 310D1BEC2074674600FF3CBE /* ChinaDailyForiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		310D1C032074674700FF3CBE /* ChinaDailyForiPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310D1C1B2074674700FF3CBE /* Build configuration list for PBXNativeTarget "ChinaDailyForiPadTests" */;
+			buildPhases = (
+				310D1C002074674700FF3CBE /* Sources */,
+				310D1C012074674700FF3CBE /* Frameworks */,
+				310D1C022074674700FF3CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				310D1C062074674700FF3CBE /* PBXTargetDependency */,
+			);
+			name = ChinaDailyForiPadTests;
+			productName = ChinaDailyForiPadTests;
+			productReference = 310D1C042074674700FF3CBE /* ChinaDailyForiPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		310D1C0E2074674700FF3CBE /* ChinaDailyForiPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310D1C1E2074674700FF3CBE /* Build configuration list for PBXNativeTarget "ChinaDailyForiPadUITests" */;
+			buildPhases = (
+				310D1C0B2074674700FF3CBE /* Sources */,
+				310D1C0C2074674700FF3CBE /* Frameworks */,
+				310D1C0D2074674700FF3CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				310D1C112074674700FF3CBE /* PBXTargetDependency */,
+			);
+			name = ChinaDailyForiPadUITests;
+			productName = ChinaDailyForiPadUITests;
+			productReference = 310D1C0F2074674700FF3CBE /* ChinaDailyForiPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		310D1BE42074674600FF3CBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "王双龙";
+				TargetAttributes = {
+					310D1BEB2074674600FF3CBE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					310D1C032074674700FF3CBE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 310D1BEB2074674600FF3CBE;
+					};
+					310D1C0E2074674700FF3CBE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 310D1BEB2074674600FF3CBE;
+					};
+				};
+			};
+			buildConfigurationList = 310D1BE72074674600FF3CBE /* Build configuration list for PBXProject "ChinaDailyForiPad" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 310D1BE32074674600FF3CBE;
+			productRefGroup = 310D1BED2074674600FF3CBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				310D1BEB2074674600FF3CBE /* ChinaDailyForiPad */,
+				310D1C032074674700FF3CBE /* ChinaDailyForiPadTests */,
+				310D1C0E2074674700FF3CBE /* ChinaDailyForiPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		310D1BEA2074674600FF3CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3120AD6D20BBF90800CDEE5A /* JStoOC.html in Resources */,
+				310D1BFC2074674600FF3CBE /* LaunchScreen.storyboard in Resources */,
+				310D1C2D2074A83E00FF3CBE /* backbutton@3x.png in Resources */,
+				310D1BF92074674600FF3CBE /* Assets.xcassets in Resources */,
+				310D1C312074A86A00FF3CBE /* webRefreshButton@3x.png in Resources */,
+				310D1BF72074674600FF3CBE /* Main.storyboard in Resources */,
+				310D1C2C2074A83E00FF3CBE /* backbutton@2x.png in Resources */,
+				310D1C302074A86A00FF3CBE /* webRefreshButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310D1C022074674700FF3CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310D1C0D2074674700FF3CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		310D1BE82074674600FF3CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310D1BF42074674600FF3CBE /* ViewController.m in Sources */,
+				310D1BFF2074674600FF3CBE /* main.m in Sources */,
+				310D1BF12074674600FF3CBE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310D1C002074674700FF3CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310D1C092074674700FF3CBE /* ChinaDailyForiPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310D1C0B2074674700FF3CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310D1C142074674700FF3CBE /* ChinaDailyForiPadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		310D1C062074674700FF3CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 310D1BEB2074674600FF3CBE /* ChinaDailyForiPad */;
+			targetProxy = 310D1C052074674700FF3CBE /* PBXContainerItemProxy */;
+		};
+		310D1C112074674700FF3CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 310D1BEB2074674600FF3CBE /* ChinaDailyForiPad */;
+			targetProxy = 310D1C102074674700FF3CBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		310D1BF52074674600FF3CBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				310D1BF62074674600FF3CBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		310D1BFA2074674600FF3CBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				310D1BFB2074674600FF3CBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		310D1C162074674700FF3CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		310D1C172074674700FF3CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		310D1C192074674700FF3CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ChinaDailyForiPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChinaDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		310D1C1A2074674700FF3CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ChinaDailyForiPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChinaDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		310D1C1C2074674700FF3CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChinaDailyForiPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaDaily.ChinaDailyForiPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChinaDailyForiPad.app/ChinaDailyForiPad";
+			};
+			name = Debug;
+		};
+		310D1C1D2074674700FF3CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChinaDailyForiPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaDaily.ChinaDailyForiPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChinaDailyForiPad.app/ChinaDailyForiPad";
+			};
+			name = Release;
+		};
+		310D1C1F2074674700FF3CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChinaDailyForiPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaDaily.ChinaDailyForiPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChinaDailyForiPad;
+			};
+			name = Debug;
+		};
+		310D1C202074674700FF3CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChinaDailyForiPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaDaily.ChinaDailyForiPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChinaDailyForiPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		310D1BE72074674600FF3CBE /* Build configuration list for PBXProject "ChinaDailyForiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310D1C162074674700FF3CBE /* Debug */,
+				310D1C172074674700FF3CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		310D1C182074674700FF3CBE /* Build configuration list for PBXNativeTarget "ChinaDailyForiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310D1C192074674700FF3CBE /* Debug */,
+				310D1C1A2074674700FF3CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		310D1C1B2074674700FF3CBE /* Build configuration list for PBXNativeTarget "ChinaDailyForiPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310D1C1C2074674700FF3CBE /* Debug */,
+				310D1C1D2074674700FF3CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		310D1C1E2074674700FF3CBE /* Build configuration list for PBXNativeTarget "ChinaDailyForiPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310D1C1F2074674700FF3CBE /* Debug */,
+				310D1C202074674700FF3CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 310D1BE42074674600FF3CBE /* Project object */;
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WKWebView的使用" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29X-Fo-zmb">
+                                <rect key="frame" x="0.0" y="203" width="375" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="UxI-bW-7q6"/>
+                                    <constraint firstAttribute="height" constant="100" id="fY2-do-kma"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2018年 wsl. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGc-BI-tFp">
+                                <rect key="frame" x="0.0" y="606" width="375" height="19.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="1CV-by-sp6"/>
+                                    <constraint firstAttribute="height" constant="19.5" id="jEv-0p-GrG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="29X-Fo-zmb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3jv-Xs-BGU"/>
+                            <constraint firstItem="NGc-BI-tFp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4PT-6e-0oV"/>
+                            <constraint firstItem="NGc-BI-tFp" firstAttribute="top" secondItem="29X-Fo-zmb" secondAttribute="bottom" constant="303" id="P3Q-oH-iMt"/>
+                            <constraint firstItem="NGc-BI-tFp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Spx-LT-NF6"/>
+                            <constraint firstItem="29X-Fo-zmb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ZKC-tI-G2Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NGc-BI-tFp" secondAttribute="bottom" constant="41.5" id="bEb-27-jys"/>
+                            <constraint firstItem="29X-Fo-zmb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="183" id="hLz-bb-lZO"/>
+                            <constraint firstItem="NGc-BI-tFp" firstAttribute="top" secondItem="29X-Fo-zmb" secondAttribute="bottom" constant="303" id="vIn-Y4-aE5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>
