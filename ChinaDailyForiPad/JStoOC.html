@@ -18,7 +18,7 @@
     <h2 style="text-align:center">Welcome To You</h2>
     
     <!--        图片-->
-    <p style="text-align:center"> <img src="https://upload.jianshu.io/users/upload_avatars/1708447/fe2c67e7-25f7-4e2e-a321-a5d517c124aa.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240" width="128" height="128" align="middle" onclick="clickImage();" /> </p>
+    <p style="text-align:center"> <img src="https://upload.jianshu.io/users/upload_avatars/1708447/fe2c67e7-25f7-4e2e-a321-a5d517c124aa.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240"  id= "pictureId" width="128" height="128" align="middle" onclick="clickImage();" /> </p>
     
     <p style="text-align: center ;background-color: #e6b500"> 且行且珍惜_iOS </p>
     
@@ -54,10 +54,10 @@
     <!--        JS语法-->
     <script type = "text/javascript">
         
-        function jsToOcFunction1()
-        {
-            window.webkit.messageHandlers.jsToOcNoPrams.postMessage({});
-        }
+    function jsToOcFunction1()
+    {
+       window.webkit.messageHandlers.jsToOcNoPrams.postMessage({});
+    }
     
     function jsToOcFunction2()
     {
@@ -72,7 +72,7 @@
     //图片点击事件
     function clickImage()
     {
-        alert("欢迎你关注我！");
+        alert("欢迎你关注我！点击了图片");
     }
     
     //OC调用JS改变背景色
@@ -88,6 +88,12 @@
         var g=Math.floor(Math.random()*256);
         var b=Math.floor(Math.random()*256);
         return "rgb("+r+','+g+','+b+")";//所有方法的拼接都可以用ES6新特性`其他字符串{$变量名}`替换
+    }
+    
+    // 切换图片
+    function changePicture(id, path) {
+        var image = document.getElementById(id);
+        image.src = path;
     }
     
     </script>

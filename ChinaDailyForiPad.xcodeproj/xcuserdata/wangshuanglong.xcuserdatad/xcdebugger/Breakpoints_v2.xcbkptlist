@@ -20,11 +20,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChinaDailyForiPad/ViewController.m"
-            timestampString = "550659703.837243"
+            timestampString = "574586182.598644"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "430"
-            endingLineNumber = "430"
+            startingLineNumber = "438"
+            endingLineNumber = "438"
             landmarkName = "-webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:"
             landmarkType = "7">
          </BreakpointContent>
@@ -36,11 +36,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChinaDailyForiPad/ViewController.m"
-            timestampString = "550659703.837772"
+            timestampString = "574586182.59914"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "441"
-            endingLineNumber = "441"
+            startingLineNumber = "449"
+            endingLineNumber = "449"
             landmarkName = "-webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:"
             landmarkType = "7">
          </BreakpointContent>

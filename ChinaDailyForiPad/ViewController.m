@@ -140,7 +140,9 @@
     
 - (void)ocToJs{
     
-    //OC调用JS  changeColor()是JS方法名，completionHandler是异步回调block
+    //OC调用JS
+    
+    //changeColor()是JS方法名，completionHandler是异步回调block
     NSString *jsString = [NSString stringWithFormat:@"changeColor('%@')", @"Js参数"];
     [_webView evaluateJavaScript:jsString completionHandler:^(id _Nullable data, NSError * _Nullable error) {
         NSLog(@"改变HTML的背景色");
@@ -149,6 +151,12 @@
     //改变字体大小 调用原生JS方法
     NSString *jsFont = [NSString stringWithFormat:@"document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust= '%d%%'", arc4random()%99 + 100];
     [_webView evaluateJavaScript:jsFont completionHandler:nil];
+    
+    NSString * path =  [[NSBundle mainBundle] pathForResource:@"girl" ofType:@"png"];
+    NSString *jsPicture = [NSString stringWithFormat:@"changePicture('%@','%@')", @"pictureId",path];
+    [_webView evaluateJavaScript:jsPicture completionHandler:^(id _Nullable data, NSError * _Nullable error) {
+        NSLog(@"切换本地头像");
+    }];
     
 }
     

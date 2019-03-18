@@ -20,6 +20,7 @@
 		310D1C302074A86A00FF3CBE /* webRefreshButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 310D1C2E2074A86A00FF3CBE /* webRefreshButton@2x.png */; };
 		310D1C312074A86A00FF3CBE /* webRefreshButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 310D1C2F2074A86A00FF3CBE /* webRefreshButton@3x.png */; };
 		3120AD6D20BBF90800CDEE5A /* JStoOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 3120AD6C20BBF90800CDEE5A /* JStoOC.html */; };
+		31C7E522223F7AC2005753A9 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C7E521223F7AC1005753A9 /* girl.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		310D1C2E2074A86A00FF3CBE /* webRefreshButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@2x.png"; sourceTree = "<group>"; };
 		310D1C2F2074A86A00FF3CBE /* webRefreshButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@3x.png"; sourceTree = "<group>"; };
 		3120AD6C20BBF90800CDEE5A /* JStoOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JStoOC.html; sourceTree = "<group>"; };
+		31C7E521223F7AC1005753A9 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		310D1BEE2074674600FF3CBE /* ChinaDailyForiPad */ = {
 			isa = PBXGroup;
 			children = (
+				31C7E521223F7AC1005753A9 /* girl.png */,
 				310D1C2E2074A86A00FF3CBE /* webRefreshButton@2x.png */,
 				310D1C2F2074A86A00FF3CBE /* webRefreshButton@3x.png */,
 				310D1C2A2074A83D00FF3CBE /* backbutton@2x.png */,
@@ -257,6 +260,7 @@
 			files = (
 				3120AD6D20BBF90800CDEE5A /* JStoOC.html in Resources */,
 				310D1BFC2074674600FF3CBE /* LaunchScreen.storyboard in Resources */,
+				31C7E522223F7AC2005753A9 /* girl.png in Resources */,
 				310D1C2D2074A83E00FF3CBE /* backbutton@3x.png in Resources */,
 				310D1BF92074674600FF3CBE /* Assets.xcassets in Resources */,
 				310D1C312074A86A00FF3CBE /* webRefreshButton@3x.png in Resources */,
