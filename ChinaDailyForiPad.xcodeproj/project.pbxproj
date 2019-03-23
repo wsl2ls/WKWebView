@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		310D1BF12074674600FF3CBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1BF02074674600FF3CBE /* AppDelegate.m */; };
-		310D1BF42074674600FF3CBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1BF32074674600FF3CBE /* ViewController.m */; };
 		310D1BF72074674600FF3CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310D1BF52074674600FF3CBE /* Main.storyboard */; };
 		310D1BF92074674600FF3CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310D1BF82074674600FF3CBE /* Assets.xcassets */; };
 		310D1BFC2074674600FF3CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310D1BFA2074674600FF3CBE /* LaunchScreen.storyboard */; };
 		310D1BFF2074674600FF3CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1BFE2074674600FF3CBE /* main.m */; };
 		310D1C092074674700FF3CBE /* ChinaDailyForiPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1C082074674700FF3CBE /* ChinaDailyForiPadTests.m */; };
 		310D1C142074674700FF3CBE /* ChinaDailyForiPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1C132074674700FF3CBE /* ChinaDailyForiPadUITests.m */; };
-		310D1C2C2074A83E00FF3CBE /* backbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 310D1C2A2074A83D00FF3CBE /* backbutton@2x.png */; };
-		310D1C2D2074A83E00FF3CBE /* backbutton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 310D1C2B2074A83D00FF3CBE /* backbutton@3x.png */; };
-		310D1C302074A86A00FF3CBE /* webRefreshButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 310D1C2E2074A86A00FF3CBE /* webRefreshButton@2x.png */; };
-		310D1C312074A86A00FF3CBE /* webRefreshButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 310D1C2F2074A86A00FF3CBE /* webRefreshButton@3x.png */; };
-		3120AD6D20BBF90800CDEE5A /* JStoOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 3120AD6C20BBF90800CDEE5A /* JStoOC.html */; };
-		31C7E522223F7AC2005753A9 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C7E521223F7AC1005753A9 /* girl.png */; };
+		31F697F622462138001C9B1E /* backbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F697ED22462138001C9B1E /* backbutton@2x.png */; };
+		31F697F722462138001C9B1E /* backbutton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F697EE22462138001C9B1E /* backbutton@3x.png */; };
+		31F697F822462138001C9B1E /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F697EF22462138001C9B1E /* girl.png */; };
+		31F697F922462138001C9B1E /* JStoOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 31F697F022462138001C9B1E /* JStoOC.html */; };
+		31F697FA22462138001C9B1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F697F322462138001C9B1E /* ViewController.m */; };
+		31F697FB22462138001C9B1E /* webRefreshButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F697F422462138001C9B1E /* webRefreshButton@2x.png */; };
+		31F697FC22462138001C9B1E /* webRefreshButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F697F522462138001C9B1E /* webRefreshButton@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,6 @@
 		310D1BEC2074674600FF3CBE /* ChinaDailyForiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaDailyForiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		310D1BEF2074674600FF3CBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		310D1BF02074674600FF3CBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		310D1BF22074674600FF3CBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		310D1BF32074674600FF3CBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		310D1BF62074674600FF3CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		310D1BF82074674600FF3CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		310D1BFB2074674600FF3CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,13 +55,15 @@
 		310D1C0F2074674700FF3CBE /* ChinaDailyForiPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinaDailyForiPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		310D1C132074674700FF3CBE /* ChinaDailyForiPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinaDailyForiPadUITests.m; sourceTree = "<group>"; };
 		310D1C152074674700FF3CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		310D1C2420746CA300FF3CBE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		310D1C2A2074A83D00FF3CBE /* backbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@2x.png"; sourceTree = "<group>"; };
-		310D1C2B2074A83D00FF3CBE /* backbutton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@3x.png"; sourceTree = "<group>"; };
-		310D1C2E2074A86A00FF3CBE /* webRefreshButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@2x.png"; sourceTree = "<group>"; };
-		310D1C2F2074A86A00FF3CBE /* webRefreshButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@3x.png"; sourceTree = "<group>"; };
-		3120AD6C20BBF90800CDEE5A /* JStoOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JStoOC.html; sourceTree = "<group>"; };
-		31C7E521223F7AC1005753A9 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		31F697ED22462138001C9B1E /* backbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@2x.png"; sourceTree = "<group>"; };
+		31F697EE22462138001C9B1E /* backbutton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@3x.png"; sourceTree = "<group>"; };
+		31F697EF22462138001C9B1E /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		31F697F022462138001C9B1E /* JStoOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JStoOC.html; sourceTree = "<group>"; };
+		31F697F122462138001C9B1E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		31F697F222462138001C9B1E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31F697F322462138001C9B1E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31F697F422462138001C9B1E /* webRefreshButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@2x.png"; sourceTree = "<group>"; };
+		31F697F522462138001C9B1E /* webRefreshButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,17 +114,9 @@
 		310D1BEE2074674600FF3CBE /* ChinaDailyForiPad */ = {
 			isa = PBXGroup;
 			children = (
-				31C7E521223F7AC1005753A9 /* girl.png */,
-				310D1C2E2074A86A00FF3CBE /* webRefreshButton@2x.png */,
-				310D1C2F2074A86A00FF3CBE /* webRefreshButton@3x.png */,
-				310D1C2A2074A83D00FF3CBE /* backbutton@2x.png */,
-				310D1C2B2074A83D00FF3CBE /* backbutton@3x.png */,
-				3120AD6C20BBF90800CDEE5A /* JStoOC.html */,
-				310D1C2420746CA300FF3CBE /* PrefixHeader.pch */,
+				31F697EC22462138001C9B1E /* WebView */,
 				310D1BEF2074674600FF3CBE /* AppDelegate.h */,
 				310D1BF02074674600FF3CBE /* AppDelegate.m */,
-				310D1BF22074674600FF3CBE /* ViewController.h */,
-				310D1BF32074674600FF3CBE /* ViewController.m */,
 				310D1BF52074674600FF3CBE /* Main.storyboard */,
 				310D1BF82074674600FF3CBE /* Assets.xcassets */,
 				310D1BFA2074674600FF3CBE /* LaunchScreen.storyboard */,
@@ -151,6 +143,22 @@
 			);
 			path = ChinaDailyForiPadUITests;
 			sourceTree = "<group>";
+		};
+		31F697EC22462138001C9B1E /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				31F697ED22462138001C9B1E /* backbutton@2x.png */,
+				31F697EE22462138001C9B1E /* backbutton@3x.png */,
+				31F697EF22462138001C9B1E /* girl.png */,
+				31F697F022462138001C9B1E /* JStoOC.html */,
+				31F697F122462138001C9B1E /* PrefixHeader.pch */,
+				31F697F222462138001C9B1E /* ViewController.h */,
+				31F697F322462138001C9B1E /* ViewController.m */,
+				31F697F422462138001C9B1E /* webRefreshButton@2x.png */,
+				31F697F522462138001C9B1E /* webRefreshButton@3x.png */,
+			);
+			path = WebView;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -258,15 +266,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3120AD6D20BBF90800CDEE5A /* JStoOC.html in Resources */,
 				310D1BFC2074674600FF3CBE /* LaunchScreen.storyboard in Resources */,
-				31C7E522223F7AC2005753A9 /* girl.png in Resources */,
-				310D1C2D2074A83E00FF3CBE /* backbutton@3x.png in Resources */,
+				31F697FC22462138001C9B1E /* webRefreshButton@3x.png in Resources */,
+				31F697F722462138001C9B1E /* backbutton@3x.png in Resources */,
+				31F697F922462138001C9B1E /* JStoOC.html in Resources */,
 				310D1BF92074674600FF3CBE /* Assets.xcassets in Resources */,
-				310D1C312074A86A00FF3CBE /* webRefreshButton@3x.png in Resources */,
 				310D1BF72074674600FF3CBE /* Main.storyboard in Resources */,
-				310D1C2C2074A83E00FF3CBE /* backbutton@2x.png in Resources */,
-				310D1C302074A86A00FF3CBE /* webRefreshButton@2x.png in Resources */,
+				31F697FB22462138001C9B1E /* webRefreshButton@2x.png in Resources */,
+				31F697F622462138001C9B1E /* backbutton@2x.png in Resources */,
+				31F697F822462138001C9B1E /* girl.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				310D1BF42074674600FF3CBE /* ViewController.m in Sources */,
+				31F697FA22462138001C9B1E /* ViewController.m in Sources */,
 				310D1BFF2074674600FF3CBE /* main.m in Sources */,
 				310D1BF12074674600FF3CBE /* AppDelegate.m in Sources */,
 			);
