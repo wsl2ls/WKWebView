@@ -15,6 +15,12 @@
 		310D1C092074674700FF3CBE /* ChinaDailyForiPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1C082074674700FF3CBE /* ChinaDailyForiPadTests.m */; };
 		310D1C142074674700FF3CBE /* ChinaDailyForiPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1C132074674700FF3CBE /* ChinaDailyForiPadUITests.m */; };
 		31F697FA22462138001C9B1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F697F322462138001C9B1E /* ViewController.m */; };
+		31F6981E224631AB001C9B1E /* backbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F69818224631AB001C9B1E /* backbutton@2x.png */; };
+		31F6981F224631AB001C9B1E /* backbutton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F69819224631AB001C9B1E /* backbutton@3x.png */; };
+		31F69820224631AB001C9B1E /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F6981A224631AB001C9B1E /* girl.png */; };
+		31F69821224631AB001C9B1E /* JStoOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 31F6981B224631AB001C9B1E /* JStoOC.html */; };
+		31F69822224631AB001C9B1E /* webRefreshButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F6981C224631AB001C9B1E /* webRefreshButton@2x.png */; };
+		31F69823224631AB001C9B1E /* webRefreshButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F6981D224631AB001C9B1E /* webRefreshButton@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,12 @@
 		31F697F122462138001C9B1E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		31F697F222462138001C9B1E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		31F697F322462138001C9B1E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31F69818224631AB001C9B1E /* backbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@2x.png"; sourceTree = "<group>"; };
+		31F69819224631AB001C9B1E /* backbutton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@3x.png"; sourceTree = "<group>"; };
+		31F6981A224631AB001C9B1E /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		31F6981B224631AB001C9B1E /* JStoOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JStoOC.html; sourceTree = "<group>"; };
+		31F6981C224631AB001C9B1E /* webRefreshButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@2x.png"; sourceTree = "<group>"; };
+		31F6981D224631AB001C9B1E /* webRefreshButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,7 @@
 		310D1BEE2074674600FF3CBE /* ChinaDailyForiPad */ = {
 			isa = PBXGroup;
 			children = (
+				31F69817224631AB001C9B1E /* Resource */,
 				31F697EC22462138001C9B1E /* WebView */,
 				310D1BEF2074674600FF3CBE /* AppDelegate.h */,
 				310D1BF02074674600FF3CBE /* AppDelegate.m */,
@@ -140,6 +153,19 @@
 				31F697F322462138001C9B1E /* ViewController.m */,
 			);
 			path = WebView;
+			sourceTree = SOURCE_ROOT;
+		};
+		31F69817224631AB001C9B1E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				31F69818224631AB001C9B1E /* backbutton@2x.png */,
+				31F69819224631AB001C9B1E /* backbutton@3x.png */,
+				31F6981A224631AB001C9B1E /* girl.png */,
+				31F6981B224631AB001C9B1E /* JStoOC.html */,
+				31F6981C224631AB001C9B1E /* webRefreshButton@2x.png */,
+				31F6981D224631AB001C9B1E /* webRefreshButton@3x.png */,
+			);
+			path = Resource;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -249,8 +275,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				310D1BFC2074674600FF3CBE /* LaunchScreen.storyboard in Resources */,
+				31F69823224631AB001C9B1E /* webRefreshButton@3x.png in Resources */,
+				31F6981F224631AB001C9B1E /* backbutton@3x.png in Resources */,
+				31F69821224631AB001C9B1E /* JStoOC.html in Resources */,
 				310D1BF92074674600FF3CBE /* Assets.xcassets in Resources */,
 				310D1BF72074674600FF3CBE /* Main.storyboard in Resources */,
+				31F69822224631AB001C9B1E /* webRefreshButton@2x.png in Resources */,
+				31F6981E224631AB001C9B1E /* backbutton@2x.png in Resources */,
+				31F69820224631AB001C9B1E /* girl.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
