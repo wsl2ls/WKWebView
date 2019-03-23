@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-WKWebView的使用、JS和OC的交互、网页内容加载进度条的实现
+                   WKWebView的使用、JS和OC的交互、网页内容加载进度条的实现
                    DESC
 
   spec.homepage     = "https://github.com/wsl2ls/WKWebView"
@@ -39,7 +39,7 @@ WKWebView的使用、JS和OC的交互、网页内容加载进度条的实现
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -91,7 +91,7 @@ WKWebView的使用、JS和OC的交互、网页内容加载进度条的实现
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "WebView", "WebView/**/*.{h,m}"
+  spec.source_files  = "WebView/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

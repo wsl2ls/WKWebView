@@ -14,13 +14,7 @@
 		310D1BFF2074674600FF3CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1BFE2074674600FF3CBE /* main.m */; };
 		310D1C092074674700FF3CBE /* ChinaDailyForiPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1C082074674700FF3CBE /* ChinaDailyForiPadTests.m */; };
 		310D1C142074674700FF3CBE /* ChinaDailyForiPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1C132074674700FF3CBE /* ChinaDailyForiPadUITests.m */; };
-		31F697F622462138001C9B1E /* backbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F697ED22462138001C9B1E /* backbutton@2x.png */; };
-		31F697F722462138001C9B1E /* backbutton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F697EE22462138001C9B1E /* backbutton@3x.png */; };
-		31F697F822462138001C9B1E /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F697EF22462138001C9B1E /* girl.png */; };
-		31F697F922462138001C9B1E /* JStoOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 31F697F022462138001C9B1E /* JStoOC.html */; };
 		31F697FA22462138001C9B1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F697F322462138001C9B1E /* ViewController.m */; };
-		31F697FB22462138001C9B1E /* webRefreshButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F697F422462138001C9B1E /* webRefreshButton@2x.png */; };
-		31F697FC22462138001C9B1E /* webRefreshButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F697F522462138001C9B1E /* webRefreshButton@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,15 +49,9 @@
 		310D1C0F2074674700FF3CBE /* ChinaDailyForiPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinaDailyForiPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		310D1C132074674700FF3CBE /* ChinaDailyForiPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinaDailyForiPadUITests.m; sourceTree = "<group>"; };
 		310D1C152074674700FF3CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31F697ED22462138001C9B1E /* backbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@2x.png"; sourceTree = "<group>"; };
-		31F697EE22462138001C9B1E /* backbutton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@3x.png"; sourceTree = "<group>"; };
-		31F697EF22462138001C9B1E /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
-		31F697F022462138001C9B1E /* JStoOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JStoOC.html; sourceTree = "<group>"; };
 		31F697F122462138001C9B1E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		31F697F222462138001C9B1E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		31F697F322462138001C9B1E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		31F697F422462138001C9B1E /* webRefreshButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@2x.png"; sourceTree = "<group>"; };
-		31F697F522462138001C9B1E /* webRefreshButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,15 +135,9 @@
 		31F697EC22462138001C9B1E /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				31F697ED22462138001C9B1E /* backbutton@2x.png */,
-				31F697EE22462138001C9B1E /* backbutton@3x.png */,
-				31F697EF22462138001C9B1E /* girl.png */,
-				31F697F022462138001C9B1E /* JStoOC.html */,
 				31F697F122462138001C9B1E /* PrefixHeader.pch */,
 				31F697F222462138001C9B1E /* ViewController.h */,
 				31F697F322462138001C9B1E /* ViewController.m */,
-				31F697F422462138001C9B1E /* webRefreshButton@2x.png */,
-				31F697F522462138001C9B1E /* webRefreshButton@3x.png */,
 			);
 			path = WebView;
 			sourceTree = SOURCE_ROOT;
@@ -267,14 +249,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				310D1BFC2074674600FF3CBE /* LaunchScreen.storyboard in Resources */,
-				31F697FC22462138001C9B1E /* webRefreshButton@3x.png in Resources */,
-				31F697F722462138001C9B1E /* backbutton@3x.png in Resources */,
-				31F697F922462138001C9B1E /* JStoOC.html in Resources */,
 				310D1BF92074674600FF3CBE /* Assets.xcassets in Resources */,
 				310D1BF72074674600FF3CBE /* Main.storyboard in Resources */,
-				31F697FB22462138001C9B1E /* webRefreshButton@2x.png in Resources */,
-				31F697F622462138001C9B1E /* backbutton@2x.png in Resources */,
-				31F697F822462138001C9B1E /* girl.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
