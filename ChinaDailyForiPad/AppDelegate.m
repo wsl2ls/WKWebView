@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "SLWebViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +20,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    ViewController * vc = [[ViewController alloc] init];
+    SLWebViewController * vc = [[SLWebViewController alloc] init];
     UINavigationController * na = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = na;
     [self.window makeKeyAndVisible];

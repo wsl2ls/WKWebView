@@ -14,6 +14,7 @@
 		310D1BFF2074674600FF3CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1BFE2074674600FF3CBE /* main.m */; };
 		310D1C092074674700FF3CBE /* ChinaDailyForiPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1C082074674700FF3CBE /* ChinaDailyForiPadTests.m */; };
 		310D1C142074674700FF3CBE /* ChinaDailyForiPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D1C132074674700FF3CBE /* ChinaDailyForiPadUITests.m */; };
+		312411E122476A120078543D /* SLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312411E022476A120078543D /* SLWebViewController.m */; };
 		31F6981E224631AB001C9B1E /* backbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F69818224631AB001C9B1E /* backbutton@2x.png */; };
 		31F6981F224631AB001C9B1E /* backbutton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F69819224631AB001C9B1E /* backbutton@3x.png */; };
 		31F69820224631AB001C9B1E /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F6981A224631AB001C9B1E /* girl.png */; };
@@ -54,6 +55,9 @@
 		310D1C0F2074674700FF3CBE /* ChinaDailyForiPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinaDailyForiPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		310D1C132074674700FF3CBE /* ChinaDailyForiPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinaDailyForiPadUITests.m; sourceTree = "<group>"; };
 		310D1C152074674700FF3CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312411DE22476A120078543D /* SLPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPrefixHeader.pch; sourceTree = "<group>"; };
+		312411DF22476A120078543D /* SLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLWebViewController.h; sourceTree = "<group>"; };
+		312411E022476A120078543D /* SLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLWebViewController.m; sourceTree = "<group>"; };
 		31F69818224631AB001C9B1E /* backbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@2x.png"; sourceTree = "<group>"; };
 		31F69819224631AB001C9B1E /* backbutton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@3x.png"; sourceTree = "<group>"; };
 		31F6981A224631AB001C9B1E /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 		310D1BEE2074674600FF3CBE /* ChinaDailyForiPad */ = {
 			isa = PBXGroup;
 			children = (
+				312411DD22476A120078543D /* WebView */,
 				31F69817224631AB001C9B1E /* Resource */,
 				310D1BEF2074674600FF3CBE /* AppDelegate.h */,
 				310D1BF02074674600FF3CBE /* AppDelegate.m */,
@@ -138,6 +143,16 @@
 				310D1C152074674700FF3CBE /* Info.plist */,
 			);
 			path = ChinaDailyForiPadUITests;
+			sourceTree = "<group>";
+		};
+		312411DD22476A120078543D /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				312411DE22476A120078543D /* SLPrefixHeader.pch */,
+				312411DF22476A120078543D /* SLWebViewController.h */,
+				312411E022476A120078543D /* SLWebViewController.m */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 		31F69817224631AB001C9B1E /* Resource */ = {
@@ -292,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312411E122476A120078543D /* SLWebViewController.m in Sources */,
 				310D1BFF2074674600FF3CBE /* main.m in Sources */,
 				310D1BF12074674600FF3CBE /* AppDelegate.m in Sources */,
 			);
