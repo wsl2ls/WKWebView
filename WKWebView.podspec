@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WKWebView"
-  spec.version      = "1.0"
+  spec.version      = "1.0.1"
   spec.summary      = "WKWebView的使用、JS和OC的交互、网页内容加载进度条的实现."
 
   # This description is used to generate tags and improve search results.
