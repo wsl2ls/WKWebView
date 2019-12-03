@@ -123,7 +123,7 @@
 //OC调用JS
 - (void)ocToJs{
     //changeColor()是JS方法名，completionHandler是异步回调block
-    NSString *jsString = [NSString stringWithFormat:@"changeColor('%@')", @"Js参数"];
+    NSString *jsString = [NSString stringWithFormat:@"changeColor('%@')", @"Js颜色参数"];
     [_webView evaluateJavaScript:jsString completionHandler:^(id _Nullable data, NSError * _Nullable error) {
         NSLog(@"改变HTML的背景色");
     }];
